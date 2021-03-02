@@ -54,6 +54,7 @@
 			children = (
 				B191E83325EEE96700D465AF /* MoonShotV2App.swift */,
 				B191E83525EEE96700D465AF /* ContentView.swift */,
+				B191E84425EEEAC400D465AF /* Notes */,
 				B191E83725EEE96800D465AF /* Assets.xcassets */,
 				B191E83C25EEE96800D465AF /* Info.plist */,
 				B191E83925EEE96800D465AF /* Preview Content */,
@@ -67,6 +68,13 @@
 				B191E83A25EEE96800D465AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B191E84425EEEAC400D465AF /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
