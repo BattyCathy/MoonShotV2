@@ -13,6 +13,7 @@
 		B191E83B25EEE96800D465AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B191E83A25EEE96800D465AF /* Preview Assets.xcassets */; };
 		B191E84625EEEAF700D465AF /* 00. Prologue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E84525EEEAF700D465AF /* 00. Prologue.swift */; };
 		B191E84A25EEED1A00D465AF /* 01. Moonshot- Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E84925EEED1A00D465AF /* 01. Moonshot- Introduction.swift */; };
+		B191E84D25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E84C25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B191E83C25EEE96800D465AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B191E84525EEEAF700D465AF /* 00. Prologue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. Prologue.swift"; sourceTree = "<group>"; };
 		B191E84925EEED1A00D465AF /* 01. Moonshot- Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Moonshot- Introduction.swift"; sourceTree = "<group>"; };
+		B191E84C25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Resizing Images to Fit the Screen Using GeometryReader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B191E84525EEEAF700D465AF /* 00. Prologue.swift */,
 				B191E84925EEED1A00D465AF /* 01. Moonshot- Introduction.swift */,
+				B191E84C25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				B191E84A25EEED1A00D465AF /* 01. Moonshot- Introduction.swift in Sources */,
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
+				B191E84D25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift in Sources */,
 				B191E83425EEE96700D465AF /* MoonShotV2App.swift in Sources */,
 				B191E84625EEEAF700D465AF /* 00. Prologue.swift in Sources */,
 			);
