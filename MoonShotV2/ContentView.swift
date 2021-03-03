@@ -17,7 +17,7 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Detail view")) {
                     Image(mission.image)
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .scaledToFit()
                         .frame(width: 44, height: 44)
                     
                     VStack(alignment: .leading) {
