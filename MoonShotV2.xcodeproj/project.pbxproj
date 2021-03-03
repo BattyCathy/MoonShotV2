@@ -24,6 +24,7 @@
 		B191E86A25EF251A00D465AF /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86925EF251A00D465AF /* Astronaut.swift */; };
 		B191E86D25EF258D00D465AF /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */; };
 		B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */; };
+		B191E87325EF320900D465AF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87225EF320900D465AF /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		B191E86925EF251A00D465AF /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Using Generics to Load Any Kind of Codable Data.swift"; sourceTree = "<group>"; };
+		B191E87225EF320900D465AF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +85,10 @@
 				B191E84425EEEAC400D465AF /* Notes */,
 				B191E83725EEE96800D465AF /* Assets.xcassets */,
 				B191E86425EF223700D465AF /* astronauts.json */,
+				B191E86525EF223700D465AF /* missions.json */,
 				B191E86925EF251A00D465AF /* Astronaut.swift */,
 				B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */,
-				B191E86525EF223700D465AF /* missions.json */,
+				B191E87225EF320900D465AF /* Mission.swift */,
 				B191E83C25EEE96800D465AF /* Info.plist */,
 				B191E83925EEE96800D465AF /* Preview Content */,
 			);
@@ -215,6 +218,7 @@
 				B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */,
 				B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */,
 				B191E84625EEEAF700D465AF /* 00. Prologue.swift in Sources */,
+				B191E87325EF320900D465AF /* Mission.swift in Sources */,
 				B191E86D25EF258D00D465AF /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
