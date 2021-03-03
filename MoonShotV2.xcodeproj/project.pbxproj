@@ -27,6 +27,7 @@
 		B191E87325EF320900D465AF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87225EF320900D465AF /* Mission.swift */; };
 		B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */; };
 		B191E87A25F02CA400D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87925F02CA400D465AF /* 00. TOC.swift */; };
+		B191E87D25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B191E87225EF320900D465AF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Formatting Our Mission View.swift"; sourceTree = "<group>"; };
 		B191E87925F02CA400D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
+		B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Showing Mission Details with ScrollView and GeometryReader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				B191E87925F02CA400D465AF /* 00. TOC.swift */,
+				B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */,
 			);
 			path = "Day Three";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				B191E84A25EEED1A00D465AF /* 01. Moonshot- Introduction.swift in Sources */,
 				B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */,
+				B191E87D25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift in Sources */,
 				B191E86A25EF251A00D465AF /* Astronaut.swift in Sources */,
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
 				B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */,
