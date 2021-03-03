@@ -23,7 +23,7 @@ struct ContentView: View {
                     VStack(alignment: .leading) {
                         Text(mission.displayName)
                             .font(.headline)
-                        Text(mission.launchDate ?? "N/A")
+                        Text(mission.formattedLaunchDate)
                     }
                 }
             }
