@@ -23,6 +23,7 @@
 		B191E86725EF223700D465AF /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B191E86525EF223700D465AF /* missions.json */; };
 		B191E86A25EF251A00D465AF /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86925EF251A00D465AF /* Astronaut.swift */; };
 		B191E86D25EF258D00D465AF /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */; };
+		B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		B191E86525EF223700D465AF /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		B191E86925EF251A00D465AF /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Using Generics to Load Any Kind of Codable Data.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				B191E85D25EF19B900D465AF /* 00. TOC.swift */,
 				B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */,
+				B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */,
 			);
 			path = "Day Two";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B191E84A25EEED1A00D465AF /* 01. Moonshot- Introduction.swift in Sources */,
+				B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */,
 				B191E86A25EF251A00D465AF /* Astronaut.swift in Sources */,
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
 				B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */,
