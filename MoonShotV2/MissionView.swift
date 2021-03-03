@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MissionView: View {
     let mission: Mission
+    let astronauts: [CrewMember]
     
     struct CrewMember {
         let role: String
