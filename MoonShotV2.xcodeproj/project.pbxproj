@@ -17,6 +17,7 @@
 		B191E85025EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E84F25EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift */; };
 		B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */; };
 		B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */; };
+		B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85D25EF19B900D465AF /* 00. TOC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B191E84F25EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. How ScrollView lets us work with scrolling data.swift"; sourceTree = "<group>"; };
 		B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04. Pushing New Views Onto the Stack Using NavigationLink.swift"; sourceTree = "<group>"; };
 		B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Working with Hierarchical Codable Data.swift"; sourceTree = "<group>"; };
+		B191E85D25EF19B900D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 			children = (
 				B191E83325EEE96700D465AF /* MoonShotV2App.swift */,
 				B191E83525EEE96700D465AF /* ContentView.swift */,
-				B191E84425EEEAC400D465AF /* Day One Notes */,
+				B191E84425EEEAC400D465AF /* Notes */,
 				B191E83725EEE96800D465AF /* Assets.xcassets */,
 				B191E83C25EEE96800D465AF /* Info.plist */,
 				B191E83925EEE96800D465AF /* Preview Content */,
@@ -82,7 +84,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B191E84425EEEAC400D465AF /* Day One Notes */ = {
+		B191E84425EEEAC400D465AF /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B191E85A25EF197800D465AF /* Day One */,
+				B191E85C25EF199D00D465AF /* Day Two */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		B191E85A25EF197800D465AF /* Day One */ = {
 			isa = PBXGroup;
 			children = (
 				B191E84525EEEAF700D465AF /* 00. Prologue.swift */,
@@ -92,7 +103,15 @@
 				B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */,
 				B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */,
 			);
-			path = "Day One Notes";
+			path = "Day One";
+			sourceTree = "<group>";
+		};
+		B191E85C25EF199D00D465AF /* Day Two */ = {
+			isa = PBXGroup;
+			children = (
+				B191E85D25EF19B900D465AF /* 00. TOC.swift */,
+			);
+			path = "Day Two";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +190,7 @@
 				B191E85025EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift in Sources */,
 				B191E83425EEE96700D465AF /* MoonShotV2App.swift in Sources */,
 				B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */,
+				B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */,
 				B191E84625EEEAF700D465AF /* 00. Prologue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
