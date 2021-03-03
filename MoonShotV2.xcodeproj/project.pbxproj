@@ -18,6 +18,7 @@
 		B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */; };
 		B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */; };
 		B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85D25EF19B900D465AF /* 00. TOC.swift */; };
+		B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04. Pushing New Views Onto the Stack Using NavigationLink.swift"; sourceTree = "<group>"; };
 		B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Working with Hierarchical Codable Data.swift"; sourceTree = "<group>"; };
 		B191E85D25EF19B900D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
+		B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Loading a Specific Kind of Codable Data.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B191E85D25EF19B900D465AF /* 00. TOC.swift */,
+				B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */,
 			);
 			path = "Day Two";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				B191E84A25EEED1A00D465AF /* 01. Moonshot- Introduction.swift in Sources */,
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
 				B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */,
+				B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */,
 				B191E84D25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift in Sources */,
 				B191E85025EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift in Sources */,
 				B191E83425EEE96700D465AF /* MoonShotV2App.swift in Sources */,
