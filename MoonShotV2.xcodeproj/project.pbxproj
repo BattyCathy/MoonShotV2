@@ -25,6 +25,7 @@
 		B191E86D25EF258D00D465AF /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */; };
 		B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */; };
 		B191E87325EF320900D465AF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87225EF320900D465AF /* Mission.swift */; };
+		B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Using Generics to Load Any Kind of Codable Data.swift"; sourceTree = "<group>"; };
 		B191E87225EF320900D465AF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Formatting Our Mission View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				B191E85D25EF19B900D465AF /* 00. TOC.swift */,
 				B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */,
 				B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */,
+				B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */,
 			);
 			path = "Day Two";
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				B191E86A25EF251A00D465AF /* Astronaut.swift in Sources */,
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
 				B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */,
+				B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */,
 				B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */,
 				B191E84D25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift in Sources */,
 				B191E85025EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift in Sources */,
