@@ -17,7 +17,7 @@
 		B191E85025EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E84F25EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift */; };
 		B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */; };
 		B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */; };
-		B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85D25EF19B900D465AF /* 00. TOC.swift */; };
+		B191E85E25EF19B900D465AF /* 00. TOC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85D25EF19B900D465AF /* 00. TOC2.swift */; };
 		B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */; };
 		B191E86625EF223700D465AF /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = B191E86425EF223700D465AF /* astronauts.json */; };
 		B191E86725EF223700D465AF /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B191E86525EF223700D465AF /* missions.json */; };
@@ -26,7 +26,7 @@
 		B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */; };
 		B191E87325EF320900D465AF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87225EF320900D465AF /* Mission.swift */; };
 		B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */; };
-		B191E87A25F02CA400D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87925F02CA400D465AF /* 00. TOC.swift */; };
+		B191E87A25F02CA400D465AF /* 00. TOC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87925F02CA400D465AF /* 00. TOC3.swift */; };
 		B191E87D25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */; };
 		B191E88425F0340600D465AF /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E88325F0340600D465AF /* MissionView.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,7 @@
 		B191E84F25EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. How ScrollView lets us work with scrolling data.swift"; sourceTree = "<group>"; };
 		B191E85225EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04. Pushing New Views Onto the Stack Using NavigationLink.swift"; sourceTree = "<group>"; };
 		B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Working with Hierarchical Codable Data.swift"; sourceTree = "<group>"; };
-		B191E85D25EF19B900D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
+		B191E85D25EF19B900D465AF /* 00. TOC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC2.swift"; sourceTree = "<group>"; };
 		B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Loading a Specific Kind of Codable Data.swift"; sourceTree = "<group>"; };
 		B191E86425EF223700D465AF /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		B191E86525EF223700D465AF /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Using Generics to Load Any Kind of Codable Data.swift"; sourceTree = "<group>"; };
 		B191E87225EF320900D465AF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Formatting Our Mission View.swift"; sourceTree = "<group>"; };
-		B191E87925F02CA400D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
+		B191E87925F02CA400D465AF /* 00. TOC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC3.swift"; sourceTree = "<group>"; };
 		B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Showing Mission Details with ScrollView and GeometryReader.swift"; sourceTree = "<group>"; };
 		B191E88325F0340600D465AF /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,7 +138,7 @@
 		B191E85C25EF199D00D465AF /* Day Two */ = {
 			isa = PBXGroup;
 			children = (
-				B191E85D25EF19B900D465AF /* 00. TOC.swift */,
+				B191E85D25EF19B900D465AF /* 00. TOC2.swift */,
 				B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */,
 				B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */,
 				B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */,
@@ -149,7 +149,7 @@
 		B191E87825F02C8200D465AF /* Day Three */ = {
 			isa = PBXGroup;
 			children = (
-				B191E87925F02CA400D465AF /* 00. TOC.swift */,
+				B191E87925F02CA400D465AF /* 00. TOC3.swift */,
 				B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */,
 			);
 			path = "Day Three";
@@ -239,8 +239,8 @@
 				B191E85025EF006C00D465AF /* 03. How ScrollView lets us work with scrolling data.swift in Sources */,
 				B191E83425EEE96700D465AF /* MoonShotV2App.swift in Sources */,
 				B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */,
-				B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */,
-				B191E87A25F02CA400D465AF /* 00. TOC.swift in Sources */,
+				B191E85E25EF19B900D465AF /* 00. TOC2.swift in Sources */,
+				B191E87A25F02CA400D465AF /* 00. TOC3.swift in Sources */,
 				B191E84625EEEAF700D465AF /* 00. Prologue.swift in Sources */,
 				B191E87325EF320900D465AF /* Mission.swift in Sources */,
 				B191E86D25EF258D00D465AF /* Bundle-Decodable.swift in Sources */,

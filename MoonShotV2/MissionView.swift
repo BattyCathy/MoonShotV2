@@ -13,11 +13,11 @@ struct MissionView: View {
     var body: some View {
         GeometryReader { geometry in
             ScrollView(.vertical) {
-                Vstack {
+                VStack {
                     Image(self.mission.image)
                         .resizable()
                         .scaledToFit()
-                        .frame(maxWidth: geomtry.size.width * 0.7)
+                        .frame(maxWidth: geometry.size.width * 0.7)
                         .padding(.top)
                     
                     Text(self.mission.description)
@@ -33,7 +33,9 @@ struct MissionView: View {
 }
 
 struct MissionView_Previews: PreviewProvider {
+    static let missions: [Mission] = Bundle.main.decode("missions.json")
+    
     static var previews: some View {
-        MissionView()
+        MissionView(mission: missions[0])
     }
 }
