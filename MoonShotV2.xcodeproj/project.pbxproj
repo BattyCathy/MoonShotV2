@@ -28,6 +28,7 @@
 		B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */; };
 		B191E87A25F02CA400D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87925F02CA400D465AF /* 00. TOC.swift */; };
 		B191E87D25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */; };
+		B191E88425F0340600D465AF /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E88325F0340600D465AF /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Formatting Our Mission View.swift"; sourceTree = "<group>"; };
 		B191E87925F02CA400D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
 		B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Showing Mission Details with ScrollView and GeometryReader.swift"; sourceTree = "<group>"; };
+		B191E88325F0340600D465AF /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				B191E86925EF251A00D465AF /* Astronaut.swift */,
 				B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */,
 				B191E87225EF320900D465AF /* Mission.swift */,
+				B191E88325F0340600D465AF /* MissionView.swift */,
 				B191E83C25EEE96800D465AF /* Info.plist */,
 				B191E83925EEE96800D465AF /* Preview Content */,
 			);
@@ -228,6 +231,7 @@
 				B191E87D25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift in Sources */,
 				B191E86A25EF251A00D465AF /* Astronaut.swift in Sources */,
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
+				B191E88425F0340600D465AF /* MissionView.swift in Sources */,
 				B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */,
 				B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */,
 				B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */,
