@@ -26,6 +26,7 @@
 		B191E87025EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */; };
 		B191E87325EF320900D465AF /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87225EF320900D465AF /* Mission.swift */; };
 		B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */; };
+		B191E87A25F02CA400D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87925F02CA400D465AF /* 00. TOC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B191E86F25EF276400D465AF /* 02. Using Generics to Load Any Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Using Generics to Load Any Kind of Codable Data.swift"; sourceTree = "<group>"; };
 		B191E87225EF320900D465AF /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Formatting Our Mission View.swift"; sourceTree = "<group>"; };
+		B191E87925F02CA400D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				B191E83325EEE96700D465AF /* MoonShotV2App.swift */,
 				B191E83525EEE96700D465AF /* ContentView.swift */,
 				B191E84425EEEAC400D465AF /* Notes */,
+				B191E87825F02C8200D465AF /* Day Three */,
 				B191E83725EEE96800D465AF /* Assets.xcassets */,
 				B191E86425EF223700D465AF /* astronauts.json */,
 				B191E86525EF223700D465AF /* missions.json */,
@@ -136,6 +139,14 @@
 				B191E87525EF34BD00D465AF /* 03. Formatting Our Mission View.swift */,
 			);
 			path = "Day Two";
+			sourceTree = "<group>";
+		};
+		B191E87825F02C8200D465AF /* Day Three */ = {
+			isa = PBXGroup;
+			children = (
+				B191E87925F02CA400D465AF /* 00. TOC.swift */,
+			);
+			path = "Day Three";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				B191E83425EEE96700D465AF /* MoonShotV2App.swift in Sources */,
 				B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */,
 				B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */,
+				B191E87A25F02CA400D465AF /* 00. TOC.swift in Sources */,
 				B191E84625EEEAF700D465AF /* 00. Prologue.swift in Sources */,
 				B191E87325EF320900D465AF /* Mission.swift in Sources */,
 				B191E86D25EF258D00D465AF /* Bundle-Decodable.swift in Sources */,
