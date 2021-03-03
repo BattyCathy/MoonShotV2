@@ -10,6 +10,11 @@ import SwiftUI
 struct MissionView: View {
     let mission: Mission
     
+    struct CrewMember {
+        let role: String
+        let astronaut: Astronaut
+    }
+    
     var body: some View {
         GeometryReader { geometry in
             ScrollView(.vertical) {
