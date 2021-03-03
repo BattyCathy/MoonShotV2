@@ -19,6 +19,8 @@
 		B191E85625EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */; };
 		B191E85E25EF19B900D465AF /* 00. TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E85D25EF19B900D465AF /* 00. TOC.swift */; };
 		B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */; };
+		B191E86625EF223700D465AF /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = B191E86425EF223700D465AF /* astronauts.json */; };
+		B191E86725EF223700D465AF /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B191E86525EF223700D465AF /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B191E85525EF111700D465AF /* 05. Working with Hierarchical Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Working with Hierarchical Codable Data.swift"; sourceTree = "<group>"; };
 		B191E85D25EF19B900D465AF /* 00. TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "00. TOC.swift"; sourceTree = "<group>"; };
 		B191E86125EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Loading a Specific Kind of Codable Data.swift"; sourceTree = "<group>"; };
+		B191E86425EF223700D465AF /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		B191E86525EF223700D465AF /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				B191E83525EEE96700D465AF /* ContentView.swift */,
 				B191E84425EEEAC400D465AF /* Notes */,
 				B191E83725EEE96800D465AF /* Assets.xcassets */,
+				B191E86425EF223700D465AF /* astronauts.json */,
+				B191E86525EF223700D465AF /* missions.json */,
 				B191E83C25EEE96800D465AF /* Info.plist */,
 				B191E83925EEE96800D465AF /* Preview Content */,
 			);
@@ -174,7 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B191E86625EF223700D465AF /* astronauts.json in Resources */,
 				B191E83B25EEE96800D465AF /* Preview Assets.xcassets in Resources */,
+				B191E86725EF223700D465AF /* missions.json in Resources */,
 				B191E83825EEE96800D465AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
