@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,8 @@
 		B191E87D25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */; };
 		B191E88425F0340600D465AF /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191E88325F0340600D465AF /* MissionView.swift */; };
 		B1C5700825F0708E00FD39B7 /* 03. Fixing Problems with buttonStyle() and layoutPriority().swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C5700725F0708E00FD39B7 /* 03. Fixing Problems with buttonStyle() and layoutPriority().swift */; };
+		B1C5700B25F0787900FD39B7 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C5700A25F0787900FD39B7 /* AstronautView.swift */; };
+		B1C5701225F07CC300FD39B7 /* 04. Wrap Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C5701125F07CC200FD39B7 /* 04. Wrap Up.swift */; };
 		B1C9CD8F25F0463B006BC24C /* 02. Merging Codable structs using first(where).swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9CD8E25F0463B006BC24C /* 02. Merging Codable structs using first(where).swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Showing Mission Details with ScrollView and GeometryReader.swift"; sourceTree = "<group>"; };
 		B191E88325F0340600D465AF /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		B1C5700725F0708E00FD39B7 /* 03. Fixing Problems with buttonStyle() and layoutPriority().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Fixing Problems with buttonStyle() and layoutPriority().swift"; sourceTree = "<group>"; };
+		B1C5700A25F0787900FD39B7 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		B1C5701125F07CC200FD39B7 /* 04. Wrap Up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04. Wrap Up.swift"; sourceTree = "<group>"; };
 		B1C9CD8E25F0463B006BC24C /* 02. Merging Codable structs using first(where).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Merging Codable structs using first(where).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +105,7 @@
 				B191E86525EF223700D465AF /* missions.json */,
 				B191E86925EF251A00D465AF /* Astronaut.swift */,
 				B191E86C25EF258D00D465AF /* Bundle-Decodable.swift */,
+				B1C5700A25F0787900FD39B7 /* AstronautView.swift */,
 				B191E87225EF320900D465AF /* Mission.swift */,
 				B191E88325F0340600D465AF /* MissionView.swift */,
 				B191E83C25EEE96800D465AF /* Info.plist */,
@@ -157,6 +162,7 @@
 				B191E87C25F02EA700D465AF /* 01. Showing Mission Details with ScrollView and GeometryReader.swift */,
 				B1C9CD8E25F0463B006BC24C /* 02. Merging Codable structs using first(where).swift */,
 				B1C5700725F0708E00FD39B7 /* 03. Fixing Problems with buttonStyle() and layoutPriority().swift */,
+				B1C5701125F07CC200FD39B7 /* 04. Wrap Up.swift */,
 			);
 			path = "Day Three";
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Ausin Roach";
 				TargetAttributes = {
 					B191E82F25EEE96700D465AF = {
 						CreatedOnToolsVersion = 12.3;
@@ -196,7 +203,7 @@
 				};
 			};
 			buildConfigurationList = B191E82B25EEE96700D465AF /* Build configuration list for PBXProject "MoonShotV2" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -239,6 +246,8 @@
 				B191E83625EEE96700D465AF /* ContentView.swift in Sources */,
 				B191E88425F0340600D465AF /* MissionView.swift in Sources */,
 				B191E85325EF092300D465AF /* 04. Pushing New Views Onto the Stack Using NavigationLink.swift in Sources */,
+				B1C5701225F07CC300FD39B7 /* 04. Wrap Up.swift in Sources */,
+				B1C5700B25F0787900FD39B7 /* AstronautView.swift in Sources */,
 				B191E87625EF34BD00D465AF /* 03. Formatting Our Mission View.swift in Sources */,
 				B191E86225EF1CBF00D465AF /* 01. Loading a Specific Kind of Codable Data.swift in Sources */,
 				B191E84D25EEEEBF00D465AF /* 02. Resizing Images to Fit the Screen Using GeometryReader.swift in Sources */,
@@ -317,7 +326,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -370,11 +379,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
